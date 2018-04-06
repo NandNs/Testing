@@ -8,16 +8,13 @@ int main()
 	int tempArray[1][2] = {value1,value2};
 	for(int i=0;i<5;i++)
 	{
-		for(int j=0;j<3;j++)
+		if(Argos[i][2] == tempArray[1][2])
 		{
-			if(Argos[i][j] == tempArray[1][2])
-			{
-				cout << "Hit!" << endl;
-			}
-			else
-			{
-				cout << "Miss!" << endl;
-			}
+			cout << "Hit!" << endl;
+		}
+		else
+		{
+			cout << "Miss!" << endl;
 		}
 	}
 	return(0);
