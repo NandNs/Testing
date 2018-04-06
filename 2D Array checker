@@ -10,13 +10,8 @@ int main()
 	{
 		if(Argos[i][2] == tempArray[1][2])
 		{
-			cout << "Hit!" << endl;
-		}
-		else
-		{
-			cout << "Miss!" << endl;
+			cout << "Yay!" << endl;
 		}
 	}
 	return(0);
 }
-//currently spits out an infinite amount of Hit! and Miss!
