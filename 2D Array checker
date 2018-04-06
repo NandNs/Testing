@@ -1,0 +1,25 @@
+//Used to check 2 values against a 2D array
+#include <iostream>
+using namespace std;
+int main()
+{
+	int Argos[4][2] = {{1,1},{1,2},{1,3},{1,4}};
+	int value1 = 1, value2 = 4;
+	int tempArray[1][2] = {value1,value2};
+	for(int i=0;i<5;i++)
+	{
+		for(int j=0;j<3;j++)
+		{
+			if(Argos[i][j] == tempArray[1][2])
+			{
+				cout << "Hit!" << endl;
+			}
+			else
+			{
+				cout << "Miss!" << endl;
+			}
+		}
+	}
+	return(0);
+}
+//currently spits out an infinite amount of Hit! and Miss!
