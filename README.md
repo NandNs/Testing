@@ -1,2 +1,2 @@
 # Testing New Code Bits
-Just testing bits of code
+Just posting little bits of code I want to try alone and make sure they work before I put them into my projects
