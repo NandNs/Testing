@@ -1,0 +1,18 @@
+bool detectPalindrome(string word)
+{
+    int x = word.length();
+    int y = x-1;
+    char letters[y];
+    bool checks[y/2] = {false};
+    for(int i=0;i<=y;i++)
+    {
+        letters[i]
+    }
+    for(int i=0;i<y/2;i++)
+    {
+        if(letters[i] == letters[y-i])
+        {
+            checks[i] = true;
+        }
+    }
+}
