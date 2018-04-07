@@ -1,0 +1,6 @@
+//used to convert from a a-z to 1-26
+int converter(char x)
+{
+  int num = x - 96; //a=1
+  return(num);
+}
